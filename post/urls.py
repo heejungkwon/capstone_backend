@@ -11,7 +11,6 @@ urlpatterns = [
     path('upload/',views.model_form_upload,name='upload'),
     path('upload/image/',views.user_image_upload,name='upload_image'),
     path('upload/image/processing/',views.user_image_processing,name='image_processing'),
-    path('result/', views.main)
-    
+    path('hellotest/',views.main,name='test')
 ]# + static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
 
